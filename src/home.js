@@ -1,3 +1,5 @@
+import pictureOfV from "./female-v-cyberpunk.jpg";
+
 function loadPage() {
   let title = content.appendChild(document.createElement('h1'));
   let image = content.appendChild(document.createElement('img'));
@@ -5,8 +7,8 @@ function loadPage() {
   let tag = content.appendChild(document.createElement('h2'));
 
   title.innerText = "V's Diner";
-  
-  image.src = "https://4kwallpapers.com/images/wallpapers/female-v-cyberpunk-2048x2048-13542.jpg";
+
+  image.src = pictureOfV;
   image.alt = "The female version of V from Cyberpunk 2077";
   image.width = image.height = "500";
 
